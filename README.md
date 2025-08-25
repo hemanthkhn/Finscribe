@@ -37,7 +37,7 @@ When a user uploads a document, the Flask backend generates semantic embeddings 
 
 
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
@@ -84,7 +84,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Start the Backend Server:**
     ```bash
-    flask run
+    python3 app.py
+    python3 get_answer.py
     ```
 2.  **Start the Frontend Development Server:**
     ```bash
