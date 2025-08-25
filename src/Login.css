@@ -1,0 +1,93 @@
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #dddbe9, #286e51);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .login-header {
+    font-size: 6.5rem;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #02302a, #6c5ce7, #0cb13e, #6c5ce7, #80d0c7);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+  
+  .input-field {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-size: 1em;
+    background: #d3d3e7;
+    color: rgb(17, 1, 1);
+    /* border: 2px solid #3e3d45; */
+  
+  }
+  
+  /* .input-field:focus {
+    box-shadow: 0 0 15px rgba(129, 236, 236, 0.8);
+  } */
+  
+  .go-button {
+    width: 80%;
+    max-width: 250px;
+    padding: 10px 0;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #6c5ce7, #81ecec);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .go-button:hover {
+    background-color: #81ecec;
+    transform: scale(1.05);
+  }
+  
+  .error-message {
+    color: #0c0101;
+    margin-top: 10px;
+  }
+  
+  .toggle-button {
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .password-strength {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+  }
+  
